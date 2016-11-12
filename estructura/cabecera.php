@@ -37,6 +37,6 @@
 	?>
 
 
-	<h1><strong>TUTORIAL CARRITO DE COMPRA EN PHP Y MYSQL</strong></h1>
+	<h1><strong> CARRITO DE COMPRA EN PHP Y MYSQL</strong></h1>
 </div>
 
