@@ -1,8 +1,7 @@
 <?php
 //ES OTRA FORMA DE INFORMAR AL USUARIO SOBRE EL ESTADO DEL PAGO.
-//Este codigo IPN es sacado de la URL: http://programacionya.com/paypal-notificacion-de-pago-instantanea-ipn/
-$payaltest = true; //cambialo a false para realizar transacciones reales, de lo contrario utiliza sandbox.
- 
+
+$payaltest = true; 
 $req = 'cmd=_notify-validate';
 $fullipnA = array();
  
@@ -67,8 +66,7 @@ if (strcmp ($response, "VERIFIED") == 0)
 		StopProcess();
 	}
  
-	//todo bien hasta ahora, la transacción ha sido confirmada por lo tanto puedo realizar mis tareas, 
-	//actualizar DB, stock, acreditar cómputos, activar cuentas etc etc
+	
  
  
  
